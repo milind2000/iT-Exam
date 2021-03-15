@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+       <Button
+        android:id="@+id/prevbtn"
+        android:layout_width="57dp"
+        android:layout_height="51dp"
+        android:layout_x="14dp"
+        android:layout_y="206dp"
+        android:background="@drawable/prev" />
+    
+    <Button        
+        android:layout_width="137dp"
+        android:layout_height="42dp"
+        android:layout_x="86dp"
+        android:layout_y="213dp"
+        android:background="@drawable/answer" 
+        android:id="@+id/ansbtn"/>
+  
+   <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_x="246dp"
+        android:layout_y="205dp"
+        android:background="@drawable/next" />
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:layout_x="4dp"
+        android:layout_y="45dp" 
+        android:textSize="25dp"/>
+    
+		<TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_x="2dp"
+        android:layout_y="267dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20dp"/>
+		
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp" />
+ 
+
+</AbsoluteLayout>
